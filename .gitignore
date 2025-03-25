@@ -1,0 +1,67 @@
+# Entornos virtuales
+env311/
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+development.ipynb
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de Selenium/Chrome
+chromedriver.log
+geckodriver.log
+*.profile
+
+# Archivos generados por el scraper
+/outputs/temp/
+*.tmp
+*.bak
+
+# Archivos de datos temporales
+*.csv~
+*.json~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entornos conda
+conda-env/
+
+# Archivos de notebook
+*.ipynb.metadata
+*.ipynb.*
+
+# Logs y reportes
+logs/
+*.log
+npm-debug.log*
+
+# Archivos de dependencias
+*.egg-info/
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Archivos de configuración personal
+config.ini
+secrets.ini
+*.env
+*.key
